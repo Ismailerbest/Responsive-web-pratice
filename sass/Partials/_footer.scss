@@ -1,0 +1,52 @@
+.footer {
+    background-color: black;
+    padding: 34px 87px 36px 106px;
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_logo {
+    fill: white;
+    color: white;
+    margin-right: 0;
+}
+
+.footer_logo svg {
+    margin-right: 15px;
+}
+
+// tablet
+@media screen and (min-width:834px) {
+    .footer {
+        padding: 31px 329px 36px 329px;
+        max-width: 834px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .photo_list_left {
+        margin-bottom: 0;
+    }
+
+    .btn_container_cards2 {
+        padding-bottom: 0;
+    }
+}
+
+// desktop
+@media screen and (min-width:1440px) {
+    .footer {
+        padding: 36px 638px 36px 624px;
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+
+    // .photo_list_left_item {
+    //     width: 380px;
+    // }
+}
